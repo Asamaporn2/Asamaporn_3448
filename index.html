@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div id="intro-overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #1a1a1a; color: #ffffff; display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: Arial, sans-serif; z-index: 1000;">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Click below to enter.</p>
+        <button onclick="enterPortfolio()" style="padding: 10px 20px; margin-top: 20px; font-size: 1.2em; color: #ffffff; background-color: #333333; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s;">
+            Enter
+        </button>
+    </div>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#landing">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="landing" class="landing-container">
+        <img src="_ (1).jpeg" alt="Landing background" class="landing-background">
+        <div class="landing-text">
+            <h1 class="portfolio-title">PORTFOLIO</h1>
+            <p>Welcome to my portfolio website.</p>
+            <p>Welcome to my portfolio website.</p>
+            <p>Welcome to my portfolio website.</p>
+        </div>
+    </section>
+    </section>
+
+    <div class="section-container" id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="รูปถ่าย.jpeg" alt="My photo" class="about-photo">
+            <div class="about-text">
+                <p>Hello, my name is <strong>Asamaporn</strong>. 
+                I am currently pursuing a Bachelor's degree in computer engineering at King Mongkut's University of Technology Thonburi.
+                I possess skills in computer software that I cultivated during my high school education, 
+                allowing me to gain valuable expertise in this field.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="section-container" id="education">
+        <h2>Education</h2>
+        <h3> • Senior High School</h3>
+        <p>Srinakharinwirot University Prasarnmit Demonstration School.</p>
+        <p>GPAX : 3.61</p>
+        <h3> • Bachelor's degree</h3>
+        <p>King Mongkut's University of Technology Thonburi.</p>
+    
+    </div>
+
+    <div class="section-container" id="skills">
+        <h2>Works</h2>
+        <h4>swipe to see more projects >>>>></h4>
+        <div class="work-gallery">
+            <div class="work-item">
+                <img src="1.JPG" alt="Work 1" class="work-image">
+                <p>I was part of a team of 7-8 people who created a 
+                robot that can work in dark places. We worked together 
+                to come up with ideas and build a prototype.</p>
+            </div>
+            <div class="work-item">
+                <img src="2.JPG" alt="Work 2" class="work-image">
+                <p>I developed an Arduino board to direct a robot's movement along specified paths</p>
+            </div>
+            <div class="work-item">
+                <img src="Modern_IMG_0091.jpeg" alt="Work 3" class="work-image">
+                <p>
+                    I developed an application with my group called "Moodern" an app designed to help users manage their emotions by recording various aspects of their daily lives.</p>
+            </div>
+            <!-- เพิ่มงานอื่น ๆ ที่นี่ -->
+        </div>
+    </div>
+    
+
+    <div class="section-container" id="contact">
+        <h2>Contact</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
